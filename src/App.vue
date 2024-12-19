@@ -1,13 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 
-async function load(){
-   let res = await fetch('https://localhost:7020/api/test/difftype',{})
-   console.log(await res.json())
-}
-
-load();
-
 </script>
 
 <template>
